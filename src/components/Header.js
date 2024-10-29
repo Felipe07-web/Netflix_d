@@ -11,7 +11,7 @@ export default ({black}) => {
                 </div>
                 <div className="header--user">
                     <a href='/'>
-                        <img src="https://i.pinimg.com/474x/0c/91/71/0c9171ce965fb4ec175c2b001516e754.jpg"></img>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"></img>
                     </a>
                 </div>
             </header>
