@@ -1,0 +1,93 @@
+.movieRow{
+    margin-bottom: 30px;
+
+}
+
+.movieRow h2{
+    margin: 0px 0px 0px 30px;
+}
+
+.ListaFilmes--listarea {
+    overflow-x: hidden;
+    padding-left: 30px;
+}
+
+.movieRow--item{
+    display: inline-block;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+.movieRow--item img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 02s;
+}
+
+.movieRow {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.movieRow {
+    position: relative;
+    overflow: hidden;
+}
+
+.movieRow--list {
+    display: flex;
+    transition: transform 0.5s ease; /* Transição suave */
+    will-change: transform; /* Melhora a performance durante a rotação */
+}
+
+.movieRow--item {
+    flex: 0 0 auto; /* Garante que os itens não se estiquem e fiquem alinhados corretamente */
+    margin-right: 15px; /* Espaço entre os itens */
+}
+
+.ListaFilmes--listarea {
+    overflow: hidden;
+    position: relative;
+}
+
+.movieRow--left,
+.movieRow--right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 225px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.movieRow--left {
+    left: 0;
+}
+
+.movieRow--right {
+    right: 0;
+}
+
+.movieRow:hover .movieRow--left,
+.movieRow:hover .movieRow--right {
+    opacity: 1;
+}
+
+@media (max-width:760){
+    .movieRow--left,
+    .movieRow--right {
+        opacity: 1;
+    }
+}
+
+
+
+
